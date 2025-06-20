@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>블로그 관리자</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="https://via.placeholder.com/48" alt="Profile" class="profile-img">
+                <h1 class="blog-title">Blolet_blogiiii</h1>
+            </div>
+            <nav class="sidebar-nav">
+                <ul class="menu-group">
+                    <li><a href="#" class="menu-item"><span class="material-icons">dashboard</span>대시보드</a></li>
+                    <li><a href="#" class="menu-item"><span class="material-icons">home</span>내 블로그 홈</a></li>
+                </ul>
+
+                <hr class="menu-divider">
+
+                <ul class="menu-group">
+                    <li class="menu-title">글 관리</li>
+                    <li><a href="#" class="menu-item active"><span class="material-icons">collections_bookmark</span>시리즈 관리</a></li>
+                    <li><a href="#" class="menu-item"><span class="material-icons">article</span>게시글 관리</a></li>
+                </ul>
+                
+                <ul class="menu-group">
+                    <li class="menu-title">댓글 관리</li>
+                    <li><a href="#" class="menu-item"><span class="material-icons">comment</span>댓글 관리</a></li>
+                    <li><a href="#" class="menu-item"><span class="material-icons">tune</span>댓글 설정</a></li>
+                </ul>
+
+                <ul class="menu-group">
+                    <li><a href="#" class="menu-item"><span class="material-icons">palette</span>꾸미기</a></li>
+                </ul>
+
+                <ul class="menu-group">
+                    <li><a href="#" class="menu-item"><span class="material-icons">settings</span>설정 및 도구</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="content-header">
+                <a href="#">시리즈 관리</a>
+                <span class="material-icons">chevron_right</span>
+                <a href="#">시리즈 편집</a>
+            </header>
+            <section class="content-body">
+                <div class="series-header">
+                    <h2>시리즈 관리</h2>
+                    <p>시리즈 순서를 변경하고 주제 연결을 설정할 수 있습니다.</p>
+                </div>
+                <hr class="content-divider">
+                <div class="series-content">
+                    <div class="series-total">전체 0</div>
+                    <div class="no-series-box">
+                        <p class="message-title">아직 시리즈를 추가하 지 않았어요</p>
+                        <p class="message-subtitle">시리즈를 추가하면 작성한 글을 그룹지어 관리할 수 있어요</p>
+                        <button class="btn btn-primary">추가하기</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html> 
